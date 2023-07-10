@@ -133,3 +133,8 @@ footer {
 .social-icons {
     margin-top: 15px;
 }
+/* copy right style */
+.copy-right {
+    text-align: center;
+    color: #aeaeae;
+}
