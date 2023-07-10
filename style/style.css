@@ -1,0 +1,135 @@
+/* share and commun style */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+section {
+    padding: 70px 0px;
+    width: 1140px;
+    margin: auto;
+}
+li {
+    list-style-type: none;
+}
+.btn {
+    font-weight: bold;
+    background-color: #ffcc00;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 2px;
+}
+h1 {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 52px;
+}
+/* hero style */
+.hero-container {
+    background-image: url('../images/bg\ \(2\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 100vh;
+    position: relative;
+}
+.hero-info {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+.hero-info h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.hero-info p {
+    width: 420px;
+    margin-bottom: 15px;
+}
+/* About style */
+
+.about-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+.about-img img {
+    width: 400px;
+}
+.about-info p {
+    color: #5a5a5a;
+    width: 620px;
+    margin-bottom: 15px;
+    line-height: 24px;
+}
+.about-info h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    
+}
+.about-info ul li {
+    line-height: 28px;
+}
+.contact-btn {
+    margin-top: 15px;
+}
+/* plans style */
+.plan-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+.plans-container {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.plans-single-box img {
+    width: 30px;
+    margin-bottom: 10px;
+}
+.contact-container {
+    background-image: url('../images/gradient1.png');
+    color: #fff;
+    padding: 20px 30px;
+}
+.contact-container h2 {
+    margin-bottom: 15px;
+}
+/* footer style*/
+
+footer {
+    background-color: #212121;
+    color: #fff;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.future-box h4 {
+    margin-bottom: 15px;
+    font-size: 26px;
+}
+.future-box p {
+    margin-bottom: 15px;
+    color: #aeaeae;
+}
+.future-box ul li {
+    line-height: 24px;
+    color: #aeaeae;
+}
+.in-btn {
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    border-radius: 2px;
+    border: none;
+    display: block;
+    margin-top: 20px;
+}
+.social-icons {
+    margin-top: 15px;
+}
